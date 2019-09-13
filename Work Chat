@@ -1,0 +1,250 @@
+Numpad5::  ;
+{
+    Send, Please update the incident on the NGSD portal, On The Home Page or under My Issues Find the reference , Click 'Update Us' , or alternatively, close the incident if the issue no longer persists.
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+Numpad6::  ;
+{
+    Send, Best Regards| Darryn Du Plessis | HAYS NGSDr IT Service Desk
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+Numpad4::  ;
+{
+    Send,  Please clear your screen of any sensitive info, I will remote in  when you are ready to try and fix this.
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+Numpad3::  ;
+{
+    Send, Any time, please get back to us with reference {} if it troubles you again :) or alternatively, Please rate our chat/incident in the email for this reference :)
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+Numpad2::  ;
+{
+    Send, Mimecast
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+Numpad1::  ;
+{
+    Send, Good Day, could you please confirm your Computer's Hostname, Location and contact number?
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+Numpad9::  ;
+{
+    Send, 250
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+Numpad8::  ;
+{
+    Send, Please open the Start Menu < Computer < bottom Left hand corner {Starts with WS/LT}
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+Numpad7::  ;
+{
+    Send, Open 'Raise a request' Either Hover IT Requests/ or click into it to load all  [Top left corner]
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+NumpadAdd::  ;
+{
+    Send, In Progress
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+
+NumpadDiv::  ;
+{
+    Send, Hays Standard
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+NumpadDot::  ;
+{
+    Send, Sending to Sysops to please help
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+
+Numpad0::  ;
+{
+    Send, One Touch
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+
+NumpadMult::  ;
+{
+    Send, Sending to One Touch 2nd Line to please help
+    Sleep, 200 ; for buffer (1000 = 1second)
+    Return
+}
+
+
+
+^Numpad1:: ;
+{
+                Send, Press [Ctrl + H] in a google chrome window, and clear browsing data with the time range set as start of time
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+
+^Numpad9:: ;
+{
+                Send, Sorry but due to no response on this chat, it will self-terminate.  Please remember to always check the NGSD knowledge portal for articles to Hays issues.
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+
+^Numpad2:: ;
+{
+                Send, Did you launch the bond URL when logging into one touch?
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+
+^Numpad8:: ;
+{
+                Send, Was anything else troubling you?
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+
+^Numpad7:: ;
+{
+                Send, Confirmed best Windows tip is to Open the start menu and type anything you need if you cant find it otherwise
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+
+^Numpad3:: ;
+{
+                Send, Please open a new one touch login page and see the bottom left hand corner what LOC ID you and the ones your colleagues are using please.
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+
+
+^Numpad5:: ;
+{
+                Send, Mimecast – \ Attachment () - 1 - UK
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+
+^NumpadDiv:: ;
+{
+                Send, https://globfone.com/thank-you/
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+^Numpad6:: ;
+{
+                Send, In case you are not available, who could the team speak with?
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+
+^NumpadEnter:: ;
+{
+                Send, Thank you, how can we help?
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+
+
+^NumpadSub:: ;
+{
+                Send, Good day, use the One Touch Self Service button and unlock your account.
+                Sleep, 200 ; for buffer (1000 = 1second)
+                Return
+}
+
+!NumpadSub:: ;
+{
+Send, Open My Issues on the NGSD portal
+Sleep, 200 ; for buffer (1000 = 1second)
+Return
+}
+
+!NumpadAdd:: ;
+{
+Send, Open My Requests on the NGSD portal
+Sleep, 200 ; for buffer (1000 = 1second)
+Return
+}
+
+!NumpadMult:: ;
+{
+Send, Input searches into the Open Toolbar asking for values
+Sleep, 200 ; for buffer (1000 = 1second)
+Return
+}
+
+!Numpad1:: ;
+{
+Send, Close all office products log out of One Touch - Press Ctrl + ALt and Delete together, use the change password option and update it there.
+Sleep, 200 ; for buffer (1000 = 1second)
+Return
+}
+
+!Numpad2:: ;
+{
+Send, Please keep me updated :)
+Sleep, 200 ; for buffer (1000 = 1second)
+Return
+}
+
+!Numpad7:: ;
+{
+Send, Darryn NGSD-r Chat
+Sleep, 200 ; for buffer (1000 = 1second)
+Return
+}
+
+
+CapsLock::      ; CapsLock
++CapsLock::   ; Shift+CapsLock
+!CapsLock::   ; Alt+CapsLock
+^CapsLock::      ; Ctrl+CapsLock
+#CapsLock::      ; Win+CapsLock
+^!CapsLock::   ; Ctrl+Alt+CapsLock
+^!#CapsLock::   ; Ctrl+Alt+Win+CapsLock
+;............   ; You can add whatever you want to block
+return         ; Do nothing, return
+
+`::
+{
+                Send, ^v
+                Sleep, 50 ;
+                return
+}
